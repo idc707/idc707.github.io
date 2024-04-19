@@ -1,6 +1,4 @@
-
-<button onclick="clearOutputCookies()">Clear</button>
-
-<div>
-  <code id="cookies"></code>
-</div>
+function clearOutputCookies() {
+  const output = document.getElementById("cookies");
+  output.textContent = "";
+}
